@@ -1,0 +1,27 @@
+---
+globs: *.jsx,*.js,*.css
+---
+
+# Tailwind CSS v4 Guidelines
+
+## Configuration
+- Tailwind config is in [tailwind.config.js](mdc:tailwind.config.js)
+- Using Tailwind CSS v4 with PostCSS integration
+- Content paths include all JS/JSX files in src/
+
+## Class Usage
+- Use utility classes for styling
+- Prefer Tailwind utilities over custom CSS
+- Use responsive prefixes: `sm:`, `md:`, `lg:`, `xl:`, `2xl:`
+- Use state variants: `hover:`, `focus:`, `active:`, `disabled:`
+
+## Common Patterns
+- Layout: `flex`, `grid`, `block`, `inline-block`
+- Spacing: `p-*`, `m-*`, `space-*`
+- Colors: Use semantic color names when possible
+- Typography: `text-*`, `font-*`, `leading-*`
+
+## Custom CSS
+- Only add custom CSS when Tailwind utilities are insufficient
+- Use CSS custom properties for dynamic values
+- Keep custom styles minimal and focused

@@ -1,0 +1,25 @@
+---
+alwaysApply: true
+---
+
+# FreePads Project Structure Guide
+
+This is a React 19 + Vite 7 + Tailwind CSS v4 project for building a pads application.
+
+## Key Files and Structure
+
+- **Entry Point**: [src/main.jsx](mdc:src/main.jsx) - Main application entry point
+- **Main Component**: [src/App.jsx](mdc:src/App.jsx) - Root React component
+- **Build Config**: [vite.config.js](mdc:vite.config.js) - Vite configuration
+- **CSS Framework**: [tailwind.config.js](mdc:tailwind.config.js) - Tailwind CSS v4 configuration
+- **Linting**: [eslint.config.js](mdc:eslint.config.js) - ESLint configuration
+- **Dependencies**: [package.json](mdc:package.json) - Project dependencies and scripts
+
+## Project Conventions
+
+- Use React 19 features and hooks
+- Follow ESLint rules defined in [eslint.config.js](mdc:eslint.config.js)
+- Use Tailwind CSS v4 for styling (utility-first approach)
+- All source code is in the `src/` directory
+- Use ES modules (import/export syntax)
+- Follow the existing file structure and naming conventions

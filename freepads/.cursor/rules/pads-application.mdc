@@ -1,0 +1,38 @@
+---
+description: Guidelines specific to the FreePads application
+---
+
+# FreePads Application Guidelines
+
+## Application Purpose
+FreePads is a pads application built with React 19, Vite 7, and Tailwind CSS v4.
+
+## Key Features to Consider
+- Pad management and organization
+- User interface for creating and editing pads
+- Responsive design for various screen sizes
+- Modern, clean UI using Tailwind CSS
+
+## Component Architecture
+- Create reusable UI components
+- Use composition over inheritance
+- Implement proper state management
+- Consider accessibility (a11y) requirements
+
+## Styling Approach
+- Use Tailwind CSS utilities for consistent styling
+- Create a design system with reusable components
+- Implement responsive design patterns
+- Use semantic HTML elements
+
+## State Management
+- Start with local component state
+- Consider context for shared state
+- Use custom hooks for complex state logic
+- Plan for future state management needs
+
+## Performance Considerations
+- Optimize for fast loading
+- Implement lazy loading where appropriate
+- Use React.memo for expensive components
+- Consider code splitting for larger features

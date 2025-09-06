@@ -1,0 +1,35 @@
+---
+alwaysApply: true
+---
+
+# Development Workflow
+
+## Available Scripts
+- `npm run dev` - Start development server (Vite dev server)
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build locally
+- `npm run lint` - Run ESLint to check code quality
+
+## Development Server
+- Default port: 5173 (Vite default)
+- Hot Module Replacement (HMR) enabled
+- Fast refresh for React components
+- Automatic browser refresh on file changes
+
+## Build Process
+- Uses Vite for fast builds
+- Outputs to `dist/` directory
+- Optimizes assets and code
+- Generates source maps for debugging
+
+## Code Quality
+- Run `npm run lint` before committing
+- Fix all ESLint errors and warnings
+- Follow the established code patterns
+- Test components in the browser during development
+
+## File Watching
+- Vite watches all files in `src/`
+- Changes to JS/JSX files trigger HMR
+- CSS changes are applied instantly
+- Config changes require server restart

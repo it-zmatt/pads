@@ -1,0 +1,36 @@
+---
+globs: *.js,*.jsx
+---
+
+# Code Quality Standards
+
+## ESLint Configuration
+- Follow rules defined in [eslint.config.js](mdc:eslint.config.js)
+- Use recommended React Hooks rules
+- No unused variables (except those starting with uppercase)
+- Use React Refresh for development
+
+## Code Style
+- Use semicolons consistently
+- Use 2 spaces for indentation
+- Use single quotes for strings
+- Use trailing commas in objects and arrays
+- Use const/let instead of var
+
+## Naming Conventions
+- Use camelCase for variables and functions
+- Use PascalCase for components
+- Use UPPER_CASE for constants
+- Use descriptive, meaningful names
+
+## File Organization
+- One component per file
+- Use index.js files for clean imports
+- Group related files in directories
+- Keep files focused and not too large
+
+## Performance
+- Use React.memo() for expensive components
+- Use useMemo() and useCallback() when appropriate
+- Avoid unnecessary re-renders
+- Optimize images and assets

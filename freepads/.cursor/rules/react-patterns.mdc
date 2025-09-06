@@ -1,0 +1,33 @@
+---
+globs: *.jsx,*.js
+---
+
+# React Development Patterns
+
+## Component Structure
+- Use functional components with hooks
+- Export components as default exports
+- Use PascalCase for component names
+- Keep components focused and single-purpose
+
+## State Management
+- Use `useState` for local component state
+- Use `useEffect` for side effects
+- Consider custom hooks for reusable stateful logic
+
+## Event Handling
+- Use arrow functions for event handlers
+- Follow the pattern: `onClick={() => setCount((count) => count + 1)}`
+- Use descriptive handler names
+
+## JSX Best Practices
+- Use self-closing tags for elements without children
+- Use `className` instead of `class`
+- Use `alt` attributes for images
+- Use fragments (`<>`) when you need to return multiple elements
+
+## Import/Export
+- Import React hooks at the top: `import { useState, useEffect } from 'react'`
+- Import assets with descriptive names
+- Use relative imports for local files
+- Group imports: React imports, then third-party, then local imports
